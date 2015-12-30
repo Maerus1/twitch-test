@@ -1,0 +1,17 @@
+p{
+  color: #FF0000;
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif, monospace;
+  padding-left: 5px;
+}
+
+img{
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 50px;
+}
+
+.text{
+  background-color: #FFDD00;
+  padding: 0;
+}
