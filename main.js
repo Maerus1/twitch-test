@@ -17,7 +17,7 @@ $(function(){
 });
 $.getJSON('https://api.twitch.tv/kraken/streams/' + users[i], function(obj){
   if(obj.stream !== null){ //highlight if online (green)
-    $(".name" + i.toString()).css("background-color", "green");
+    $(".name" + i.toString()).css("background-color", "rgba(255, 255, 255, 0.5)");
   }
 });
 })(i); //this (function(i){})(i); prevents the for loop above it from going straight to the end when it goes through the callback function
@@ -55,7 +55,7 @@ $.getJSON('https://api.twitch.tv/kraken/streams/' + users[i], function(obj){
 
     $.getJSON('https://api.twitch.tv/kraken/streams/' + add.val(), function(obj){
       if(obj.stream !== null){ //highlight if online (green)
-        $(".name" + users.length.toString()).css("background-color", "green");
+        $(".name" + users.length.toString()).css("background-color", "rgba(255, 255, 255, 0.5)");
       }
 
     });

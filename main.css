@@ -12,6 +12,12 @@ img{
 }
 
 .text{
-  background-color: #FFDD00;
+  background-color: #000;
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 15px;
   padding: 0;
+}
+
+body{
+  background: #000 url('http://4.bp.blogspot.com/-dzYFw4h744k/UuUwCeGhdMI/AAAAAAAAASA/OaNObTMvPGI/s1600/baseBg.png') no-repeat fixed center;
 }
