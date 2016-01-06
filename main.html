@@ -2,20 +2,19 @@
 <html lang='en'>
 <head>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="main.css"/>
   <meta charset='utf-8'/>
   <title>Dan's Dantastic Twitch App</title>
 </head>
-<body ng-app="">
+<body>
   <div class="row">
   <div id="text" class="col-sm-4 col-sm-offset-4 text"></div>
   <!--I should create a custom nav system with angular-->
 </div>
-  <input type="text" placeholder="Enter text here..." id="box" ng-model="name"/>
-  <p id="texts">{{name}}</p>
+  <input type="text" placeholder="Enter text here..." id="box"/>
+  <p id="texts"></p>
   <input type="text" id="add" placeholder="Enter stream here..."/>
   <script type="text/javascript" src="main.js"></script>
 </body>
